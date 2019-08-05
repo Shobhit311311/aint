@@ -1,0 +1,18 @@
+<h1> welcome to banking application</h1>
+<div>
+    <table >
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th> model</th>
+            <th>price</th>
+        </tr>
+         <tr *ngFor="let acc of accounts">
+            <td>{{acc.productId}}</td>
+            <td>{{acc.productName}}</td>
+            <td>{{acc.productModel}}</td>
+            <td>{{acc.productPrice}}</td>
+        </tr>
+        
+    </table>
+</div>
